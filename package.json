@@ -1,0 +1,21 @@
+{
+  "name": "bun-vector",
+  "module": "src/index.ts",
+  "version": "1.0.0",
+  "author": "sk337 <me@pk3.zip>",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "format": "prettier -w src/**/*.ts",
+    "test": "bun test",
+    "check": "tsc"
+  },
+  "files": [
+    "src/**/*",
+    "!src/**/*.test.ts"
+  ],
+  "type": "module"
+}
