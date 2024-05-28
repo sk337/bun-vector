@@ -182,4 +182,10 @@ class Vector2 {
   }
 }
 
-export { Vector2 };
+const zero = new  Vector2(0,0);
+const unitX = new Vector2(1, 0);
+const unitY = new Vector2(0, 1);
+const one = new Vector2(1,1);
+
+
+export { Vector2, zero, unitX, unitY, one };

@@ -124,4 +124,10 @@ class Vector3 {
   }
 }
 
-export { Vector3 };
+const zero = new Vector3(0, 0, 0);
+const unitX = new Vector3(1, 0, 0);
+const unitY = new Vector3(0, 1, 0);
+const unitZ = new Vector3(0, 0, 1);
+const one = new Vector3(1, 1, 1)
+
+export { Vector3, zero, unitX, unitY, unitZ, one };
