@@ -1,7 +1,7 @@
 {
   "name": "bun-vector",
   "module": "src/index.ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "sk337 <me@pk3.zip>",
   "exports": {
     ".": "./src/index.ts",
@@ -20,7 +20,8 @@
   },
   "files": [
     "src/**/*",
-    "!src/**/*.test.ts"
+    "!src/**/*.test.ts",
+    "LICENSE"
   ],
   "type": "module"
 }
