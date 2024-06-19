@@ -3,6 +3,7 @@
   "module": "src/index.ts",
   "version": "1.0.2",
   "author": "sk337 <me@pk3.zip>",
+  "license": "MIT-0"
   "exports": {
     ".": "./src/index.ts",
     "./vector2": "./src/vector2.ts",
